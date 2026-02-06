@@ -1,0 +1,16 @@
+# Core FastAPI stack (2026 stable versions)
+fastapi>=0.115.0,<0.129.0
+uvicorn>=0.30.0,<0.31.0
+pydantic>=2.7.0,<3.0.0
+
+# Environment variables (already in your code)
+python-dotenv>=1.0.0
+
+# HTTP client (async-friendly, used by many AI libs)
+httpx>=0.27.0
+
+# Cohere (LLM embeddings / reranking / generation)
+cohere>=5.9.0          # check exact latest on pypi.org/project/cohere if needed
+
+# Qdrant vector database client
+qdrant-client>=1.12.0   # async support since 1.6+, latest stable ~1.16
